@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/pagina1.css">
+        <title>Buscaminas Mistico</title>
+        
+        <link rel="icon" href="img/stonks head.ico" type="image/vnd.microsoft.icon" sizes="32x32"/>
+    </head>
+    <body>
+        <nav>
+            <a href="juego.html">JUGAR</a>
+            <a id="a-inst" type="button" data-toggle="modal" data-target="#instrucciones">INSTRUCCIONES</a>
+            <a href="acercaDe.html">ACERCA DE NOSOTROS</a>
+        </nav>
+
+        <!--VENTANA MODAL DE BIENVENIDA-->
+        <div class="modal" tabindex="-1" role="dialog" id="ventanaModal">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title">BUSCAMINAS MISTICO</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">GO!</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                <p>Preparense para experimentar lo mejor que dos estudiantes con mas cafe que agua en el cuerpo pueden ofrecer <br> &#128126; &#128126; &#128126;</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!--VENTANA DE INSTRUCCIONES-->
+        <div class="modal fade" id="instrucciones" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Instrucciones</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">Entendido</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    el buscaminas mistico es una variación del buscaminas original (que a mi opinión parece más helltaker que buscaminas),
+                    donde el objetivo será llegar desde un punto de inicio hacia una meta moviendo a nuestro amigo stonks por todo el tablero,
+                    evitando morir en el intento y por ende que las acciones de stoks caigan. en este juego las acciones
+                    se realizan de la siguiente manera:
+                    <br>
+                    <br>
+                        <strong>PASO 1</strong>
+                        <br>
+                            al entrar a la opcion jugar podemos encontrarnos con
+                            el tablero y sus elementos como el robot, la meta, 
+                            los controles en pantalla, que ademas pueden ser
+                            usados mediante teclado, las vidas, el nivel y estas
+                            instrucciones que estaran presentes para orientar al
+                            jugador.
+                        <br>
+                        <strong>PASO 2</strong>
+                        <br>
+                            una vez ubicados en el tablero nuestro objetivo, como
+                            lo mencionamos anteriormente, es <strong>alcanzar la meta</strong> como 
+                            esta marcada en el mapa; sin embargo, hay que tener en
+                            cuenta que esto es una variación del buscaminas, por
+                            lo que <strong>hay bombas plantadas en el mapa</strong> que, al pisarlas
+                            disminuirán el total de vidas. si perdemos todas nuestras
+                            vidas entonces es <strong>"GAME OVER"</strong> y debes empezar otra partida
+                            o volver a la pagina de inicio.
+                        <br>
+                        <strong>PASO 3</strong>
+                        <br>
+                            para movernos usaremos las flechas en pantalla o las 
+                            que tenemos en el teclado de nuestro dispositivo para
+                            ir hacia la derecha, izquierda, arriba o abajo.
+                        <br>
+                        <strong>PASO 4</strong>
+                        <br>
+                            cada vez que aterricemos en una casilla habra un 
+                            tiempo de espera de 3 segundos antes de que nos 
+                            devuelva el resultado en esa casilla que puede ser
+                            "mina" si esa casilla tenia una mina o "sin mina" 
+                            si no habia mina.
+                        <br>
+                        <strong>PASO 5</strong>
+                        <br>
+                            el juego acabará en cuanto lleguemos a la meta o 
+                            perdamos todas nuestras vidas.
+                            independientemente de si perdemos o ganamos,
+                            aparecera una ventana con el resultado y las opciones
+                            de <strong>"NUEVO JUEGO"</strong> o <strong>"VOLVER"</strong> lo cual
+                            indica el fin del juego.
+                        <br>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="js/pagina1.js"></script>
+    </body>
+</html>

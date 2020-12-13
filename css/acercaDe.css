@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgb(24, 76, 179);
+    font-family: consolas;
+}
+
+#paz {
+    border-spacing: 50px;
+    margin:  0px 10px 20px 20px;
+    float: left;
+    width: 178px;
+}
+#mendoza {
+    border-spacing: 50px;
+    margin:  0px 10px 20px 20px;
+    float: left;
+    width: 218px;
+}
+#stonks {
+    border-spacing: 50px;
+    margin:  0px 10px 20px 20px;
+    float: left;
+    width: 178px;
+}
+article {
+    background: rgb(29, 28, 28);
+    border-spacing: 50px;
+    margin:  0px 10px 20px;
+    border-radius: 20px;
+    height: 30vh;
+    box-shadow: rgb(0,0,0,0.5) 0 15px 15px 0px;
+}
+h1 {
+    text-align: center;
+    color: rgb(57, 103, 194);
+}
+section {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+p {
+    clear: both;
+}
